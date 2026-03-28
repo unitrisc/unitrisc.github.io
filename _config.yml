@@ -12,39 +12,27 @@ color_scheme: semito
 
 nav_external_links:
   - title: Join
-    url: https://forms.gle/TKjrRyMLgwAe8ptx9
+    url: https://forms.gle/nHQWzMU1bCgqwWgZ8
     hide_icon: true # set to true to hide the external link icon - defaults to false
     opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
   - title: GitHub
-    url: https://github.com/semitov
+    url: https://github.com/unitrisc
     hide_icon: true
     opens_in_new_tab: true
   - title: Telegram
-    url: https://t.me/SemiTOFive
+    url: https://t.me/unitrisc
     hide_icon: true
     opens_in_new_tab: true
   - title: YouTube
-    url: https://www.youtube.com/@SemiTO-V
+    url: https://www.youtube.com/@UNITRISC
     hide_icon: true
     opens_in_new_tab: true
   - title: Linkedin
-    url: https://www.linkedin.com/company/semito-v-risc-v/
-    hide_icon: true
-    opens_in_new_tab: true
-  - title: X.com
-    url: https://x.com/semito_v
-    hide_icon: true
-    opens_in_new_tab: true
-  - title: Instagram
-    url: https://www.instagram.com/semito_v?utm_source=qr&igsh=MTY4dWIzY2U0ZHV4dg==
-    hide_icon: true
-    opens_in_new_tab: true
-  - title: Guides
-    url: https://semitov.github.io/guides_index.html
+    url: https://www.linkedin.com/company/unitrisc
     hide_icon: true
     opens_in_new_tab: true
 aux_links:
-  Website's source code: https://github.com/semitov/semitov.github.io
+  Website's source code: https://github.com/unitrisc/unitrisc.github.io
 
 collections:
   guides:
