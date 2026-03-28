@@ -3,25 +3,17 @@ title: Home
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+Welcome to our website! *UNITRISC* is a RISC-V oriented student team organized in [University of Trieste](https://portale.units.it/en) that uses open standard [RISC-V ISA](https://en.wikipedia.org/wiki/RISC-V) to create custom processor designs, firmware, and software tailored principally for HPC (High Performance Computing) that is very relevant in Trieste. We share all of our projects with the rest of the world under open source licenses. Our team is modeled after [SemiTO-V](https://semitov.com/), first RISC-V student team in whole Europe.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+Check out [about us page](about) and [projects page](projects) to learn more about our work. Check [team page](team) to see the people that are behind UNITRISC.
 
-More specifically, the created site:
-
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
-
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
-
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-To get started with creating a site, simply:
-
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
-
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+If you don't know much about RISC-V ISA and ecosystem but want to learn more, we suggest you to check out following links:
+- [RISC-V International](https://riscv.org/), main body that maintains RISC-V
+    - [RISC-V Training](https://riscv.org/community/training/), training and certification programs
+    - ["Learn RISC-V"](https://github.com/riscv/learn), GitHub repository with huge list of resources
+    - [RISC-V Ecosystem Landscape](https://landscape.riscv.org/), list of all RISC-V related projects and organizations
+    - [RISE Project](https://riseproject.dev/), a software compatibility project for RISC-V
+    - [RISC-V Mentorship](https://riscv.org/community/mentorship/), mentee-mentorship program
 
 ----
 

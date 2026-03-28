@@ -1,8 +1,61 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: SemiTO-V Team PoliTO
+description: A RISC-V student team at Polytechnic University of Turin specialized in processor design and low level software/firmware development
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
+logo: "/assets/unitrisclogo.png"
+
+favicon_ico: "/assets/favicon.ico"
+
+color_scheme: semito
+
+nav_external_links:
+  - title: Join
+    url: https://forms.gle/TKjrRyMLgwAe8ptx9
+    hide_icon: true # set to true to hide the external link icon - defaults to false
+    opens_in_new_tab: true # set to true to open this link in a new tab - defaults to false
+  - title: GitHub
+    url: https://github.com/semitov
+    hide_icon: true
+    opens_in_new_tab: true
+  - title: Telegram
+    url: https://t.me/SemiTOFive
+    hide_icon: true
+    opens_in_new_tab: true
+  - title: YouTube
+    url: https://www.youtube.com/@SemiTO-V
+    hide_icon: true
+    opens_in_new_tab: true
+  - title: Linkedin
+    url: https://www.linkedin.com/company/semito-v-risc-v/
+    hide_icon: true
+    opens_in_new_tab: true
+  - title: X.com
+    url: https://x.com/semito_v
+    hide_icon: true
+    opens_in_new_tab: true
+  - title: Instagram
+    url: https://www.instagram.com/semito_v?utm_source=qr&igsh=MTY4dWIzY2U0ZHV4dg==
+    hide_icon: true
+    opens_in_new_tab: true
+  - title: Guides
+    url: https://semitov.github.io/guides_index.html
+    hide_icon: true
+    opens_in_new_tab: true
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Website's source code: https://github.com/semitov/semitov.github.io
+
+collections:
+  guides:
+    output: true
+    permalink: /guides/:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: about
+      exclude: true
